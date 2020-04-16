@@ -1,0 +1,124 @@
+html{
+    background-color: #2F2FA2;
+    font-family: "Comic Neue" , "Lora", "Aref Ruqaa", serif;
+}
+/* Nav bar */
+nav{
+    display: block;
+    padding: 15px 0; 
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    display: inline-block;
+    text-align: right;
+    margin: auto;
+    padding: 0;
+    height: auto; 
+}
+nav ul li{
+    display: inline;
+    
+}
+nav ul li a{
+    color: white;
+    text-align: right; 
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: #F64C72 ;
+}
+
+/* Header*/
+.header{
+    text-align: center; 
+    background-color: #2F2FA2;
+    color: #f64C72;
+    padding: 15px 25px;
+    display: block;
+    font-family: "Comic Neue" , "Lora", "Aref Ruqaa", serif;
+}
+
+/* Color section  */
+.colour, .fonts , .style {
+    border: 2px solid #FbEEC1;
+    padding: 10px;
+    margin: 10px auto;
+}
+h2{
+    display: block;
+    color: #f64C72;
+}
+.colour-panel {
+    display: inline-block; 
+    width: 33%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+    color: #222222;
+    font-weight: 700;
+    transition:.2s all; 
+}
+.colour:hover .colour-panel{
+    opacity: 0.50;
+    transform: sacle(0.98);
+    box-shadow: none;
+    filter: blur(3px);
+}
+.colour:hover .colour-panel:hover {
+    transform: scale(1);
+    filter:blur(0px);
+    opacity: 1;
+    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+}
+#violet {
+    background-color: #553D67;
+}
+#green{
+    background-color: #5CDB95;
+}
+#red{
+    background-color: #F64C72;
+}
+#beige{
+    background-color: #EFD9CA;
+}
+
+/* Font section  */
+.font-align{
+    display: inline-block; 
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 200px;
+    color: #fff;
+}
+#arabic{
+    font-family: "Aref Ruqaa", serif;
+}
+#comic{
+    font-family: "Comic Neue", serif;
+}
+#lora{
+    font-family: 'lora', serif;
+}
+
+/* Text Styles  */
+.style{
+    color:#fff;
+}
+.h1-heading{
+    font-weight: 700;
+    font-size: 26px;
+}
+.h2-heading{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Lora", serif;
+}
+.h3-heading{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Lora", serif;
+}
